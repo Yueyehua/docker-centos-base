@@ -6,7 +6,7 @@ LABEL version="1.0.0"
 RUN \
   yum -y install \
     openssl-devel libyaml-devel readline-devel zlib-devel ncurses-devel \
-    libffi-devel gdbm-devel sudo;
+    libffi-devel gdbm-devel sudo git;
 
 # Clean all
 RUN \
